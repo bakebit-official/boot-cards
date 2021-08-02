@@ -1,9 +1,15 @@
 echo "# boot-cards" >> README.md
+
+LOCAL REPOSITORY :
 git init
 git add .
 git commit -m "first commit"
+git status
+
+REMOTE REPOSITORY: 
 git branch -M main
 git remote add origin https://github.com/bakebit-official/boot-cards.git
 git push -u origin main
+
 
 change
